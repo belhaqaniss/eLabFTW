@@ -1,0 +1,21 @@
+@keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .animatedWord {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 40px; /* Adjust according to font size */
+    line-height: 40px; /* Adjust to vertically center the text */
+    animation: slide-up 0.5s ease-in-out;
+  }
+  
